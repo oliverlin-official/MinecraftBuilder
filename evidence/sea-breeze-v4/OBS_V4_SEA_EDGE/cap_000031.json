@@ -1,0 +1,45 @@
+{
+  "capture_id": "cap_000031",
+  "observation_id": "OBS_V4_SEA_EDGE",
+  "world_revision": 0,
+  "world_version": 0,
+  "camera": {
+    "x": 44.5,
+    "y": -5.0000001192092896,
+    "z": 188.5,
+    "yaw": 0.0,
+    "pitch": 8.0,
+    "fov": 70
+  },
+  "x": 44.5,
+  "y": -5.0000001192092896,
+  "z": 188.5,
+  "yaw": 0.0,
+  "pitch": 8.0,
+  "roll": 0.0,
+  "fov": 70,
+  "render": {
+    "profile": "PRODUCTION",
+    "resolution": [
+      854,
+      480
+    ],
+    "view_distance": 16,
+    "hud_hidden": true
+  },
+  "resolution": [
+    854,
+    480
+  ],
+  "environment": {
+    "dimension": "minecraft:overworld",
+    "time": 1092,
+    "weather": "clear"
+  },
+  "dimension": "minecraft:overworld",
+  "timestamp": "2026-09-08T11:23:40.162191630Z",
+  "minecraft_version": "fabric-loader-0.19.5-1.21.11",
+  "camera_backend": "PLAYER_SPECTATOR",
+  "file": "evidence/sea-breeze-v4/OBS_V4_SEA_EDGE/cap_000031.png",
+  "render_profile": "PRODUCTION"
+}

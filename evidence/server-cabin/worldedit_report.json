@@ -1,0 +1,50 @@
+{
+  "task_id": "SERVER_WORLDEDIT_SMOKE_001",
+  "status": "COMMITTED_AND_RESTORED",
+  "transport": "HMC-Specifics remote terminal -> real OP player chat command",
+  "position": [
+    191,
+    -9,
+    13
+  ],
+  "selection_volume": 1,
+  "operations": [
+    "//pos1 191,-9,13",
+    "//pos2 191,-9,13",
+    "//set minecraft:gold_block",
+    "//set minecraft:air"
+  ],
+  "readback": {
+    "before": [
+      {
+        "id": "minecraft:air",
+        "x": 191,
+        "y": -9,
+        "z": 13,
+        "state": {}
+      }
+    ],
+    "after_set": [
+      {
+        "id": "minecraft:gold_block",
+        "x": 191,
+        "y": -9,
+        "z": 13,
+        "state": {}
+      }
+    ],
+    "after_restore": [
+      {
+        "id": "minecraft:air",
+        "x": 191,
+        "y": -9,
+        "z": 13,
+        "state": {}
+      }
+    ]
+  },
+  "qa": {
+    "worldedit_write": "PASS",
+    "restored_original": "PASS"
+  }
+}

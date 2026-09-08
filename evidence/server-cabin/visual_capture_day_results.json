@@ -1,0 +1,104 @@
+[
+  {
+    "status": "OK",
+    "capture_id": "cap_000004",
+    "observation_id": "OBS_SERVER_CABIN_FRONT_DAY",
+    "file": "evidence/server-cabin/OBS_SERVER_CABIN_FRONT_DAY/cap_000004.png",
+    "png_path": "evidence/server-cabin/OBS_SERVER_CABIN_FRONT_DAY/cap_000004.png",
+    "metadata_file": "evidence/server-cabin/OBS_SERVER_CABIN_FRONT_DAY/cap_000004.json",
+    "requested_pose": {
+      "x": 185.5,
+      "y": -1.0,
+      "z": 27.5,
+      "yaw": 180.0,
+      "pitch": 18.0,
+      "fov": 70
+    },
+    "actual_pose": {
+      "x": 185.5,
+      "y": -1.0000001192092896,
+      "z": 27.5,
+      "yaw": 180.0,
+      "pitch": 18.0,
+      "fov": 70
+    },
+    "minecraft_version": "fabric-loader-0.19.5-1.21.11",
+    "dimension": "minecraft:overworld",
+    "resolution": [
+      854,
+      480
+    ],
+    "timestamp": "2026-09-08T06:45:46.604837951Z",
+    "world_revision": 0,
+    "camera_backend": "PLAYER_SPECTATOR",
+    "client_elapsed_seconds": 1.513
+  },
+  {
+    "status": "OK",
+    "capture_id": "cap_000005",
+    "observation_id": "OBS_SERVER_CABIN_SE_ISO_DAY",
+    "file": "evidence/server-cabin/OBS_SERVER_CABIN_SE_ISO_DAY/cap_000005.png",
+    "png_path": "evidence/server-cabin/OBS_SERVER_CABIN_SE_ISO_DAY/cap_000005.png",
+    "metadata_file": "evidence/server-cabin/OBS_SERVER_CABIN_SE_ISO_DAY/cap_000005.json",
+    "requested_pose": {
+      "x": 205.5,
+      "y": 2.0,
+      "z": 24.5,
+      "yaw": 142.0,
+      "pitch": 22.0,
+      "fov": 72
+    },
+    "actual_pose": {
+      "x": 205.5,
+      "y": 1.9999998807907104,
+      "z": 24.5,
+      "yaw": 142.0,
+      "pitch": 22.0,
+      "fov": 72
+    },
+    "minecraft_version": "fabric-loader-0.19.5-1.21.11",
+    "dimension": "minecraft:overworld",
+    "resolution": [
+      854,
+      480
+    ],
+    "timestamp": "2026-09-08T06:45:48.089987584Z",
+    "world_revision": 0,
+    "camera_backend": "PLAYER_SPECTATOR",
+    "client_elapsed_seconds": 1.484
+  },
+  {
+    "status": "OK",
+    "capture_id": "cap_000006",
+    "observation_id": "OBS_SERVER_CABIN_SW_ISO_DAY",
+    "file": "evidence/server-cabin/OBS_SERVER_CABIN_SW_ISO_DAY/cap_000006.png",
+    "png_path": "evidence/server-cabin/OBS_SERVER_CABIN_SW_ISO_DAY/cap_000006.png",
+    "metadata_file": "evidence/server-cabin/OBS_SERVER_CABIN_SW_ISO_DAY/cap_000006.json",
+    "requested_pose": {
+      "x": 164.5,
+      "y": 2.0,
+      "z": 24.5,
+      "yaw": -142.0,
+      "pitch": 22.0,
+      "fov": 72
+    },
+    "actual_pose": {
+      "x": 164.5,
+      "y": 1.9999998807907104,
+      "z": 24.5,
+      "yaw": -142.0,
+      "pitch": 22.0,
+      "fov": 72
+    },
+    "minecraft_version": "fabric-loader-0.19.5-1.21.11",
+    "dimension": "minecraft:overworld",
+    "resolution": [
+      854,
+      480
+    ],
+    "timestamp": "2026-09-08T06:45:49.601565637Z",
+    "world_revision": 0,
+    "camera_backend": "PLAYER_SPECTATOR",
+    "client_elapsed_seconds": 1.511
+  }
+]

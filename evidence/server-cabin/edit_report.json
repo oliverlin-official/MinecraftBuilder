@@ -1,0 +1,97 @@
+{
+  "task_id": "SERVER_CABIN_EDIT_001",
+  "status": "COMMITTED",
+  "semantic_objects_created": [
+    "CABIN_SERVER_001"
+  ],
+  "backend": "GDPC 8.1.0 via GDMC HTTP Interface 1.8.4",
+  "generator": "mcenv.cabin.generate_cabin",
+  "seed": 20260907,
+  "allowed_region": {
+    "min": [
+      179,
+      -11,
+      -1
+    ],
+    "max": [
+      191,
+      2,
+      13
+    ]
+  },
+  "operation_count": 1432,
+  "duration_seconds": 0.578,
+  "rollback_source": "runtime snapshot excluded from public repository",
+  "readback": {
+    "180,-10,0": {
+      "expected": "minecraft:cobblestone",
+      "actual": "minecraft:cobblestone",
+      "states": {},
+      "pass": true
+    },
+    "180,-9,0": {
+      "expected": "minecraft:stripped_spruce_log",
+      "actual": "minecraft:stripped_spruce_log",
+      "states": {
+        "axis": "y"
+      },
+      "pass": true
+    },
+    "185,-9,8": {
+      "expected": "minecraft:spruce_door",
+      "actual": "minecraft:spruce_door",
+      "states": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "pass": true
+    },
+    "185,-8,8": {
+      "expected": "minecraft:spruce_door",
+      "actual": "minecraft:spruce_door",
+      "states": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "pass": true
+    },
+    "179,-4,-1": {
+      "expected": "minecraft:spruce_stairs",
+      "actual": "minecraft:spruce_stairs",
+      "states": {
+        "facing": "south",
+        "half": "bottom",
+        "shape": "straight",
+        "waterlogged": "false"
+      },
+      "pass": true
+    },
+    "182,1,3": {
+      "expected": "minecraft:campfire",
+      "actual": "minecraft:campfire",
+      "states": {
+        "facing": "north",
+        "lit": "true",
+        "signal_fire": "false",
+        "waterlogged": "false"
+      },
+      "pass": true
+    },
+    "185,-10,13": {
+      "expected": "minecraft:coarse_dirt",
+      "actual": "minecraft:coarse_dirt",
+      "states": {},
+      "pass": true
+    }
+  },
+  "qa": {
+    "write_boundary": "PASS",
+    "anchor_readback": "PASS"
+  }
+}

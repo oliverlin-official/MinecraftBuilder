@@ -1,0 +1,35 @@
+{
+  "task_id": "SEA_BREEZE_STYLIZED_SEA_001",
+  "status": "COMMITTED",
+  "sea_start_z": 190,
+  "chunks_from_view_origin": 8,
+  "materials": [
+    "glass",
+    "wool",
+    "concrete"
+  ],
+  "operation_count": 53080,
+  "duration_seconds": 4.216,
+  "readback": {
+    "44,-10,80": {
+      "expected": "minecraft:sand",
+      "actual": "minecraft:sand",
+      "pass": true
+    },
+    "44,-10,55": {
+      "expected": "minecraft:oak_planks",
+      "actual": "minecraft:oak_planks",
+      "pass": true
+    },
+    "44,-10,190": {
+      "expected": "glass|wool|concrete (not water)",
+      "actual": "minecraft:light_blue_stained_glass",
+      "pass": true
+    },
+    "44,-10,80_not_water": {
+      "expected": "not minecraft:water",
+      "actual": "minecraft:sand",
+      "pass": true
+    }
+  }
+}

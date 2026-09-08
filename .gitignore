@@ -1,0 +1,65 @@
+# Operating-system and editor state
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Credentials and local overrides
+.env
+.env.*
+!.env.example
+**/.accounts.json
+**/session.json
+**/*token*
+**/*secret*
+*.pem
+*.key
+
+# Minecraft server runtime
+world/
+world_nether/
+world_the_end/
+logs/
+libraries/
+versions/
+.fabric/
+mods/
+eula.txt
+ops.json
+usercache.json
+whitelist.json
+banned-*.json
+*.jar
+
+# Gradle wrapper is intentionally versioned
+!mc-visual-probe/gradle/wrapper/gradle-wrapper.jar
+
+# HeadlessMC and client runtime
+HeadlessMC/auth/
+HeadlessMC/java/
+HeadlessMC/servers/
+HeadlessMC/headlessmc.log*
+.minecraft/
+downloads/
+crash-reports/
+
+# Build products and language caches
+.gradle/
+build/
+out/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+pylib/
+
+# Raw generated runs are excluded; curated evidence lives under evidence/
+**/runs/
+
+# Logs and terminal captures
+*.log
+*.lck
+*.hardcopy

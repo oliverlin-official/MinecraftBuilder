@@ -1,0 +1,13 @@
+{
+  "heightmap_shape": [
+    13,
+    15
+  ],
+  "heightmap_min": -9,
+  "heightmap_max": -9,
+  "block_count": 2730,
+  "expected_block_count": 2730,
+  "nonair_y_ge_minus9_count": 0,
+  "nonair_y_ge_minus9_sample": [],
+  "prewrite_pass": true
+}

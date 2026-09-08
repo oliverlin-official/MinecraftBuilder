@@ -1,0 +1,18 @@
+{
+  "prewrite_pass": true,
+  "build_area": {
+    "begin": [
+      -20,
+      -16,
+      40
+    ],
+    "last": [
+      107,
+      16,
+      221
+    ]
+  },
+  "operation_count": 53080,
+  "sea_start_z": 190,
+  "chunks_from_center": 8
+}

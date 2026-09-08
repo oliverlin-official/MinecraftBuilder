@@ -1,0 +1,45 @@
+{
+  "capture_id": "cap_000004",
+  "observation_id": "OBS_SERVER_CABIN_FRONT_DAY",
+  "world_revision": 0,
+  "world_version": 0,
+  "camera": {
+    "x": 185.5,
+    "y": -1.0000001192092896,
+    "z": 27.5,
+    "yaw": 180.0,
+    "pitch": 18.0,
+    "fov": 70
+  },
+  "x": 185.5,
+  "y": -1.0000001192092896,
+  "z": 27.5,
+  "yaw": 180.0,
+  "pitch": 18.0,
+  "roll": 0.0,
+  "fov": 70,
+  "render": {
+    "profile": "PRODUCTION",
+    "resolution": [
+      854,
+      480
+    ],
+    "view_distance": 16,
+    "hud_hidden": true
+  },
+  "resolution": [
+    854,
+    480
+  ],
+  "environment": {
+    "dimension": "minecraft:overworld",
+    "time": 6030,
+    "weather": "rain"
+  },
+  "dimension": "minecraft:overworld",
+  "timestamp": "2026-09-08T06:45:46.604837951Z",
+  "minecraft_version": "fabric-loader-0.19.5-1.21.11",
+  "camera_backend": "PLAYER_SPECTATOR",
+  "file": "evidence/server-cabin/OBS_SERVER_CABIN_FRONT_DAY/cap_000004.png",
+  "render_profile": "PRODUCTION"
+}
